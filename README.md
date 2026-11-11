@@ -11,7 +11,7 @@
 ![SHA-256](https://img.shields.io/badge/fichiers-vérifiés%20SHA--256-7c8cff)
 ![Sans télémétrie](https://img.shields.io/badge/télémétrie-aucune-lightgrey)
 
-<img src="docs/screenshot.png" alt="AK Launcher" width="760">
+<img src="assets/main.png" alt="AK Launcher" width="760">
 
 </div>
 
