@@ -2,120 +2,147 @@
 
 # AK Launcher
 
-**Installez et mettez à jour mes jeux en un clic.**
+### Installez et mettez à jour mes jeux en un clic.
 
-[![Télécharger](https://img.shields.io/badge/Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.0/AKLauncher.exe)
+[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.0/AKLauncher.exe)
 
-![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
-![Taille](https://img.shields.io/badge/launcher-~26%20Ko-4ade80)
-![Licence](https://img.shields.io/badge/licence-MIT-lightgrey)
+![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
+![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
 ![Code ouvert](https://img.shields.io/badge/code-ouvert-7c8cff)
+![Licence MIT](https://img.shields.io/badge/licence-MIT-lightgrey)
 
-<img src="docs/screenshot.png" alt="AK Launcher" width="720">
+<img src="docs/screenshot.png" alt="AK Launcher" width="760">
 
 </div>
 
----
+<br>
 
-## Pourquoi ce launcher ?
+## ✨ En bref
 
-Plutôt que de renvoyer un gros fichier à chaque mise à jour, **AK Launcher** garde mes jeux à jour pour vous :
-il regarde s'il existe une nouvelle version, ne télécharge **que ce qui a changé**, vérifie les fichiers, puis vous laisse jouer.
+|  |  |
+|---|---|
+| ⚡ **Un clic** | Installer, mettre à jour et lancer un jeu depuis la même fenêtre. |
+| 🪶 **Ultra léger** | Le launcher pèse moins de 100 Ko. Il n'y a rien à installer. |
+| 🔄 **Toujours à jour** | Il détecte les nouvelles versions et ne télécharge que ce qui a changé. |
+| 🔒 **Sûr** | Chaque fichier est vérifié avant d'être installé. Aucun compte, aucune télémétrie. |
 
-- **Un clic** pour installer, mettre à jour ou lancer un jeu.
-- **Léger** : le launcher fait environ 26 Ko, sans installation.
-- **Transparent** : le code tient dans un seul fichier que vous pouvez lire.
-- **Respectueux** : pas de compte, pas de publicité, pas de télémétrie.
+<br>
 
-## Installation
+## 🚀 Installation
 
-1. Téléchargez [**AKLauncher.exe**](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.0/AKLauncher.exe) (ou rendez-vous sur la page [Releases](../../releases)).
-2. Lancez-le.
-3. Choisissez un jeu dans la liste de gauche, puis cliquez sur **INSTALLER**.
-4. Quand une nouvelle version sort, le bouton devient **METTRE À JOUR**. Un clic, et c'est fait.
-
-Aucun droit administrateur n'est nécessaire.
+1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.0/AKLauncher.exe).
+2. **Lancez-le** : aucun droit administrateur n'est demandé.
+3. **Choisissez un jeu** et cliquez sur **INSTALLER**. Quand une mise à jour sort, le bouton devient **METTRE À JOUR**.
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?**
-> C'est normal pour un petit programme qui n'est pas signé : un certificat de signature de code est payant.
-> Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
-> Si vous préférez ne pas me croire sur parole, vous pouvez [vérifier le fichier](#vérifier-votre-téléchargement) ou [le compiler vous-même](#compiler-vous-même).
+> C'est normal pour un petit programme non signé (la signature de code est payante).
+> Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
+> Vous pouvez aussi [vérifier le fichier](#-vérifier-votre-téléchargement) avant de le lancer.
 
-## Jeux disponibles
+<br>
 
-| Jeu | Description |
-|---|---|
-| **GUN FIGHT** | FPS multijoueur : PVP et zombies en coopération, boutique, compétences, rangs et classement en ligne. |
+## 🎮 Jeux disponibles
 
-D'autres jeux arriveront ici. Ils apparaîtront automatiquement dans le launcher, sans rien réinstaller.
+<table>
+<tr>
+<td width="140" align="center"><b>GUN FIGHT</b><br><sub>FPS · PVP · Co-op</sub></td>
+<td>FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération. Boutique, compétences, rangs et classement en ligne.</td>
+</tr>
+</table>
 
-## Votre confiance, en toute transparence
+D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans rien réinstaller.
 
-Voici exactement ce que fait le launcher, et ce qu'il ne fait pas.
+<br>
+
+## 🛡️ Pourquoi vous pouvez lui faire confiance
 
 | | |
 |---|---|
-| **Ce qu'il télécharge** | La liste des jeux (`games.json`), puis les fichiers du jeu que vous choisissez, depuis GitHub, en HTTPS. |
-| **Vérification** | Chaque fichier est contrôlé par son empreinte **SHA-256** avant d'être installé. S'il est corrompu, il est rejeté et rien n'est modifié. |
-| **Où ça s'installe** | Dans `%LOCALAPPDATA%\AKLauncher\`, c'est-à-dire votre profil utilisateur. Rien d'autre sur le PC. |
-| **Droits** | Aucun droit administrateur, aucune modification du registre. |
-| **Réseau** | Uniquement GitHub. Une adresse qui ne commence pas par `https://github.com/` est refusée. |
-| **Données personnelles** | Aucun compte, aucune télémétrie, aucune publicité. Comme pour tout téléchargement, GitHub voit votre adresse IP. |
-| **Hors ligne** | Les jeux déjà installés restent lançables sans connexion. |
-| **Désinstaller** | Bouton **Désinstaller** dans le launcher, ou suppression du dossier `%LOCALAPPDATA%\AKLauncher`. |
+| **Code ouvert** | Tout le launcher tient dans un seul fichier, [lisible ici](src/AKLauncher/Program.cs). Vous pouvez le compiler vous-même. |
+| **Fichiers vérifiés** | Chaque fichier téléchargé est contrôlé par son empreinte **SHA-256**. S'il est abîmé, il est rejeté et rien n'est modifié. |
+| **Installé chez vous, rien d'autre** | Dans `%LOCALAPPDATA%\AKLauncher`, c'est-à-dire votre profil. Pas de droits administrateur, pas de modification du système. |
+| **Uniquement GitHub** | Le launcher ne contacte que GitHub, en HTTPS. Toute autre adresse est refusée. |
+| **Discret** | Aucun compte, aucune publicité, aucune télémétrie. Comme tout téléchargement, GitHub voit votre adresse IP. |
+| **Réversible** | Bouton **Désinstaller** dans le launcher, ou supprimez simplement le dossier `%LOCALAPPDATA%\AKLauncher`. |
+| **Hors ligne** | Les jeux déjà installés se lancent sans connexion. |
 
-**Limite à connaître :** le SHA-256 protège contre un téléchargement abîmé, pas contre un dépôt compromis, car les empreintes sont publiées dans ce même dépôt.
-C'est pourquoi le code est ouvert : vous pouvez tout contrôler.
+> La vérification SHA-256 protège contre un téléchargement corrompu. Les empreintes sont publiées dans ce dépôt : c'est pour cela que le code est ouvert et lisible par tous.
 
-## Vérifier votre téléchargement
+<br>
 
-Chaque release du launcher indique le **SHA-256** de `AKLauncher.exe`. Dans PowerShell, dans le dossier du fichier :
+## 🔍 Vérifier votre téléchargement
+
+Chaque version du launcher indique son **SHA-256** dans la description de la release. Dans PowerShell, depuis le dossier du fichier :
 
 ```powershell
 Get-FileHash .\AKLauncher.exe -Algorithm SHA256
 ```
 
-Le résultat doit être **identique** à celui affiché sur la page de la release. S'il est différent, ne lancez pas le fichier.
+Le résultat doit être **identique** à celui affiché sur la page de la release. Sinon, ne lancez pas le fichier.
 
-## Compiler vous-même
+<br>
 
-Tout le launcher est dans un seul fichier : [`src/AKLauncher/Program.cs`](src/AKLauncher/Program.cs) (environ 600 lignes de C#, aucune dépendance).
+## ❓ Questions fréquentes
+
+<details>
+<summary><b>Où sont installés mes jeux ?</b></summary>
+
+Dans `%LOCALAPPDATA%\AKLauncher\games\`. Collez ce chemin dans l'explorateur de fichiers pour l'ouvrir, ou utilisez le bouton « dossier » de la page du jeu.
+</details>
+
+<details>
+<summary><b>« Impossible de joindre le serveur »</b></summary>
+
+Vérifiez votre connexion Internet. Si le jeu est déjà installé, vous pouvez le lancer hors ligne.
+</details>
+
+<details>
+<summary><b>« Fermez le jeu avant de continuer »</b></summary>
+
+Une mise à jour ne peut pas remplacer un jeu en cours d'exécution. Quittez-le, puis recommencez.
+</details>
+
+<details>
+<summary><b>Un jeu ne se lance plus après une mise à jour</b></summary>
+
+Ouvrez la page du jeu et cliquez sur le bouton **Vérifier / réparer** : le launcher recontrôle chaque fichier et retélécharge ceux qui sont abîmés.
+</details>
+
+<details>
+<summary><b>Comment tout supprimer ?</b></summary>
+
+Supprimez le dossier `%LOCALAPPDATA%\AKLauncher`, puis `AKLauncher.exe`. Il ne reste rien d'autre.
+</details>
+
+<br>
+
+## 🧰 Pour les curieux
+
+**Compiler vous-même** (aucun outil à installer, Windows 10 et 11 suffisent) :
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-Le résultat est `dist\AKLauncher.exe`, compilé avec le compilateur fourni par Windows (.NET Framework 4, présent sur Windows 10 et 11). Aucun outil à installer.
+Le résultat est `dist\AKLauncher.exe`, compilé avec le compilateur fourni par Windows.
 
-## Questions fréquentes
-
-**Où sont installés mes jeux ?**
-Dans `%LOCALAPPDATA%\AKLauncher\games\<nom du jeu>\`. Collez ce chemin dans l'explorateur de fichiers pour l'ouvrir.
-
-**Le launcher dit « Impossible de joindre le serveur ».**
-Vérifiez votre connexion Internet, puis cliquez sur **RÉESSAYER**. Si le jeu est déjà installé, vous pouvez le lancer hors ligne.
-
-**« Fermez le jeu avant de continuer ».**
-Une mise à jour ne peut pas remplacer un jeu en cours d'exécution. Quittez-le, puis recommencez.
-
-**Un jeu ne se lance plus après une mise à jour.**
-Cliquez sur **Vérifier / réparer** : le launcher recontrôle chaque fichier et retélécharge ceux qui sont abîmés.
-
-**Comment tout supprimer ?**
-Supprimez le dossier `%LOCALAPPDATA%\AKLauncher` puis `AKLauncher.exe`. Il ne reste rien d'autre.
-
-## Pour le développeur
-
-Publier un jeu, mettre à jour le launcher ou ajouter un nouveau jeu : voir [`docs/PUBLISHING.md`](docs/PUBLISHING.md).
+**Publier un jeu ou le launcher** : voir [`docs/PUBLISHING.md`](docs/PUBLISHING.md).
 
 ```
 src/AKLauncher/   code du launcher (C#)
-games/            description de chaque jeu (nom, fichiers, build)
+games/            description de chaque jeu
 tools/            scripts de publication
-docs/             documentation et capture d'écran
+docs/             documentation et captures
 build.ps1         compile le launcher
 ```
 
-## Licence
+<br>
 
-Le launcher est sous licence [MIT](LICENSE). Les jeux distribués ont chacun leur propre licence.
+---
+
+<div align="center">
+
+Le launcher est sous licence [MIT](LICENSE). Les jeux distribués ont chacun leur propre licence.<br>
+Fait avec ❤️ par [AikoDevHs](https://github.com/AikoDevHs)
+
+</div>
