@@ -50,7 +50,7 @@
 </tr>
 </table>
 
-<img src="docs/screenshot-detail.png" alt="Page d'un jeu" width="760">
+<img src="assets/jeu1.png" alt="Page d'un jeu" width="760">
 
 D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans rien réinstaller.
 
