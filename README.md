@@ -8,8 +8,8 @@
 
 ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
-![Code ouvert](https://img.shields.io/badge/code-ouvert-7c8cff)
-![Licence MIT](https://img.shields.io/badge/licence-MIT-lightgrey)
+![SHA-256](https://img.shields.io/badge/fichiers-vérifiés%20SHA--256-7c8cff)
+![Sans télémétrie](https://img.shields.io/badge/télémétrie-aucune-lightgrey)
 
 <img src="docs/screenshot.png" alt="AK Launcher" width="760">
 
@@ -37,7 +37,7 @@
 > **Windows affiche « Windows a protégé votre ordinateur » ?**
 > C'est normal pour un petit programme non signé (la signature de code est payante).
 > Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
-> Vous pouvez aussi [vérifier le fichier](#-vérifier-votre-téléchargement) avant de le lancer.
+> Vous pouvez aussi [vérifier le fichier](#-vérifier-votre-téléchargement) ou l'analyser avec Windows Defender avant de le lancer.
 
 <br>
 
@@ -50,6 +50,8 @@
 </tr>
 </table>
 
+<img src="docs/screenshot-detail.png" alt="Page d'un jeu" width="760">
+
 D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans rien réinstaller.
 
 <br>
@@ -58,7 +60,7 @@ D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans ri
 
 | | |
 |---|---|
-| **Code ouvert** | Tout le launcher tient dans un seul fichier, [lisible ici](src/AKLauncher/Program.cs). Vous pouvez le compiler vous-même. |
+| **Transparent** | Le launcher fait ce qui est décrit sur cette page, et rien d'autre : il télécharge des jeux, les vérifie et les lance. |
 | **Fichiers vérifiés** | Chaque fichier téléchargé est contrôlé par son empreinte **SHA-256**. S'il est abîmé, il est rejeté et rien n'est modifié. |
 | **Installé chez vous, rien d'autre** | Dans `%LOCALAPPDATA%\AKLauncher`, c'est-à-dire votre profil. Pas de droits administrateur, pas de modification du système. |
 | **Uniquement GitHub** | Le launcher ne contacte que GitHub, en HTTPS. Toute autre adresse est refusée. |
@@ -66,7 +68,7 @@ D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans ri
 | **Réversible** | Bouton **Désinstaller** dans le launcher, ou supprimez simplement le dossier `%LOCALAPPDATA%\AKLauncher`. |
 | **Hors ligne** | Les jeux déjà installés se lancent sans connexion. |
 
-> La vérification SHA-256 protège contre un téléchargement corrompu. Les empreintes sont publiées dans ce dépôt : c'est pour cela que le code est ouvert et lisible par tous.
+> La vérification SHA-256 protège contre un téléchargement corrompu ou incomplet. Les empreintes sont publiées sur ce dépôt GitHub, que vous pouvez consulter à tout moment.
 
 <br>
 
@@ -116,33 +118,11 @@ Supprimez le dossier `%LOCALAPPDATA%\AKLauncher`, puis `AKLauncher.exe`. Il ne r
 
 <br>
 
-## 🧰 Pour les curieux
-
-**Compiler vous-même** (aucun outil à installer, Windows 10 et 11 suffisent) :
-
-```powershell
-powershell -ExecutionPolicy Bypass -File build.ps1
-```
-
-Le résultat est `dist\AKLauncher.exe`, compilé avec le compilateur fourni par Windows.
-
-**Publier un jeu ou le launcher** : voir [`docs/PUBLISHING.md`](docs/PUBLISHING.md).
-
-```
-src/AKLauncher/   code du launcher (C#)
-games/            description de chaque jeu
-tools/            scripts de publication
-docs/             documentation et captures
-build.ps1         compile le launcher
-```
-
-<br>
-
 ---
 
 <div align="center">
 
-Le launcher est sous licence [MIT](LICENSE). Les jeux distribués ont chacun leur propre licence.<br>
+© 2026 AikoDevHs · Tous droits réservés. AK Launcher est gratuit pour un usage personnel ; son code source est privé.<br>
 Fait avec ❤️ par [AikoDevHs](https://github.com/AikoDevHs)
 
 </div>
