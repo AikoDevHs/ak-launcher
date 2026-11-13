@@ -4,7 +4,7 @@
 
 ### Installez et mettez à jour mes jeux en un clic.
 
-[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.1/AKLauncher.exe)
+[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.2/AKLauncher.exe)
 
 ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
@@ -30,7 +30,7 @@
 
 ## 🚀 Installation
 
-1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.1/AKLauncher.exe).
+1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.2/AKLauncher.exe).
 2. **Lancez-le** : aucun droit administrateur n'est demandé.
 3. **Choisissez un jeu** et cliquez sur **INSTALLER**. Quand une mise à jour sort, le bouton devient **METTRE À JOUR**.
 
