@@ -22,7 +22,7 @@
 |  |  |
 |---|---|
 | ⚡ **Un clic** | Installer, mettre à jour et lancer un jeu depuis la même fenêtre. |
-| 🪶 **Ultra léger** | Le launcher pèse moins de 100 Ko. Il n'y a rien à installer. |
+| 🪶 **Ultra léger** | Le launcher pèse moins de 500 Ko. Il n'y a rien à installer. |
 | 🔄 **Toujours à jour** | Il détecte les nouvelles versions et ne télécharge que ce qui a changé. |
 | 🔒 **Sûr** | Chaque fichier est vérifié avant d'être installé. Aucun compte, aucune télémétrie. |
 
