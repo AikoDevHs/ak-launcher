@@ -41,21 +41,6 @@
 
 <br>
 
-## 🎮 Jeux disponibles
-
-<table>
-<tr>
-<td width="140" align="center"><b>GUN FIGHT</b><br><sub>FPS · PVP · Co-op</sub></td>
-<td>FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération. Boutique, compétences, rangs et classement en ligne.</td>
-</tr>
-</table>
-
-<img src="assets/jeu1.png" alt="Page d'un jeu" width="760">
-
-D'autres jeux arriveront. Ils apparaîtront tout seuls dans le launcher, sans rien réinstaller.
-
-<br>
-
 ## 🛡️ Pourquoi vous pouvez lui faire confiance
 
 | | |
