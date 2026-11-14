@@ -4,13 +4,13 @@
 
 ### Installez et lancez mes jeux en un clic.
 
-[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AKLauncher.exe)
+[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AK-Launcher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe)
 
 ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
 ![Mise à jour automatique](https://img.shields.io/badge/mise%20à%20jour-automatique-7c8cff)
 
-<img src="assets/bibliotheque.png" alt="AK Launcher : la Bibliothèque" width="760">
+<img src="assets/main.png" alt="AK Launcher : la Bibliothèque" width="760">
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## 🚀 Comment ça marche
 
-1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AKLauncher.exe) et **lancez-le**. Rien à installer, aucun droit administrateur.
+1. **Téléchargez** [`AK-Launcher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe) et **lancez-le**. Rien à installer, aucun droit administrateur.
 2. Ouvrez la **Boutique**, choisissez un jeu et cliquez sur **Installer**. Suivez le téléchargement dans **Téléchargement**.
 3. Le jeu apparaît dans votre **Bibliothèque** : cliquez dessus (ou sur **Lancer**) pour jouer.
 
@@ -38,6 +38,14 @@
 
 <br>
 
+## 🎮 Jeux disponibles
+
+**GUN FIGHT** · <kbd>Gratuit</kbd> · FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération.
+
+D'autres jeux arriveront. Ils apparaîtront tout seuls dans la Boutique, sans rien réinstaller.
+
+<br>
+
 ## 🔄 Toujours à jour
 
 - **Le launcher se met à jour tout seul** à chaque démarrage, sans rien faire.
@@ -50,7 +58,7 @@
 - Aucun compte, aucune publicité, **aucune télémétrie**.
 - Tout est installé dans votre profil (`%LOCALAPPDATA%\AKLauncher`), sans modifier le système.
 - Le launcher ne contacte que **GitHub**, en HTTPS. Chaque fichier est vérifié par son empreinte **SHA-256** avant d'être installé.
-- Pour tout supprimer : **Désinstaller** dans le menu **⋯** d'un jeu, puis supprimez le dossier ci-dessus et `AKLauncher.exe`.
+- Pour tout supprimer : **Désinstaller** dans le menu **⋯** d'un jeu, puis supprimez le dossier ci-dessus et `AK-Launcher.exe`.
 
 <details>
 <summary><b>Vérifier mon téléchargement</b></summary>
@@ -60,7 +68,7 @@
 Chaque version indique son **SHA-256** dans la description de sa [release](https://github.com/AikoDevHs/ak-launcher/releases). Dans PowerShell, depuis le dossier du fichier :
 
 ```powershell
-Get-FileHash .\AKLauncher.exe -Algorithm SHA256
+Get-FileHash .\AK-Launcher.exe -Algorithm SHA256
 ```
 
 Le résultat doit être identique à celui de la release. Sinon, ne lancez pas le fichier.
@@ -94,6 +102,7 @@ Dans la **Bibliothèque**, ouvrez le menu **⋯** du jeu puis **Réparer les fic
 
 <div align="center">
 
-© 2026 [AikoDevHs](https://github.com/AikoDevHs) · Tous droits réservés
+© 2026 AikoDevHs · Tous droits réservés. AK Launcher est gratuit pour un usage personnel ; son code source est privé.<br>
+Fait avec ❤️ par [AikoDevHs](https://github.com/AikoDevHs)
 
 </div>
