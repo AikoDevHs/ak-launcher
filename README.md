@@ -4,11 +4,10 @@
 
 ### Installez et lancez mes jeux en un clic.
 
-[![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AK-Launcher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe)
+[**⬇ Télécharger AK Launcher**](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe)
 
-![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
-![Mise à jour automatique](https://img.shields.io/badge/mise%20à%20jour-automatique-7c8cff)
+![Mise à jour automatique](https://img.shields.io/badge/mise%20%C3%A0%20jour-automatique-7c8cff)
 
 <img src="assets/bibliotheque.png" alt="AK Launcher : la Bibliothèque" width="760">
 
