@@ -4,7 +4,7 @@
 
 ### Installez et lancez mes jeux en un clic.
 
-[**⬇ Télécharger AK Launcher**](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe)
+[**⬇ Télécharger AK Launcher**](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.8/AK-Launcher.exe)
 
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
 ![Mise à jour automatique](https://img.shields.io/badge/mise%20%C3%A0%20jour-automatique-7c8cff)
@@ -17,7 +17,7 @@
 
 ## 🚀 Comment ça marche
 
-1. **Téléchargez** [`AK-Launcher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.7/AK-Launcher.exe) et **lancez-le**. Rien à installer, aucun droit administrateur.
+1. **Téléchargez** [`AK-Launcher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.8/AK-Launcher.exe) et **lancez-le**. Rien à installer, aucun droit administrateur.
 2. Ouvrez la **Boutique**, choisissez un jeu et cliquez sur **Installer**. Suivez le téléchargement dans **Téléchargement**.
 3. Le jeu apparaît dans votre **Bibliothèque** : cliquez dessus (ou sur **Lancer**) pour jouer.
 
