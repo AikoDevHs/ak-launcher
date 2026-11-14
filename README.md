@@ -10,7 +10,7 @@
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
 ![Mise à jour automatique](https://img.shields.io/badge/mise%20à%20jour-automatique-7c8cff)
 
-<img src="assets/main.png" alt="AK Launcher : la Bibliothèque" width="760">
+<img src="assets/bibliotheque.png" alt="AK Launcher : la Bibliothèque" width="760">
 
 </div>
 
