@@ -94,7 +94,6 @@ Dans la **Bibliothèque**, ouvrez le menu **⋯** du jeu puis **Réparer les fic
 
 <div align="center">
 
-© 2026 AikoDevHs · Tous droits réservés. AK Launcher est gratuit pour un usage personnel ; son code source est privé.<br>
-Fait avec ❤️ par [AikoDevHs](https://github.com/AikoDevHs)
+© 2026 [AikoDevHs](https://github.com/AikoDevHs) · Tous droits réservés
 
 </div>
