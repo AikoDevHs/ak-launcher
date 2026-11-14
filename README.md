@@ -38,14 +38,6 @@
 
 <br>
 
-## 🎮 Jeux disponibles
-
-**GUN FIGHT** · <kbd>Gratuit</kbd> · FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération.
-
-D'autres jeux arriveront. Ils apparaîtront tout seuls dans la Boutique, sans rien réinstaller.
-
-<br>
-
 ## 🔄 Toujours à jour
 
 - **Le launcher se met à jour tout seul** à chaque démarrage, sans rien faire.
