@@ -2,85 +2,86 @@
 
 # AK Launcher
 
-### Installez et mettez à jour mes jeux en un clic.
+### Installez et lancez mes jeux en un clic.
 
 [![Télécharger AK Launcher](https://img.shields.io/badge/⬇%20Télécharger-AKLauncher.exe-7c8cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.3/AKLauncher.exe)
 
 ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d6?logo=windows&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/gratuit-4ade80)
-![SHA-256](https://img.shields.io/badge/fichiers-vérifiés%20SHA--256-7c8cff)
-![Sans télémétrie](https://img.shields.io/badge/télémétrie-aucune-lightgrey)
+![Mise à jour automatique](https://img.shields.io/badge/mise%20à%20jour-automatique-7c8cff)
 
-<img src="assets/main.png" alt="AK Launcher" width="760">
+<img src="assets/main.png" alt="AK Launcher : la Bibliothèque" width="760">
 
 </div>
 
 <br>
 
-## ✨ En bref
+## 🚀 Comment ça marche
 
-|  |  |
-|---|---|
-| ⚡ **Un clic** | Installer, mettre à jour et lancer un jeu depuis la même fenêtre. |
-| 🪶 **Ultra léger** | Le launcher pèse moins de 500 Ko. Il n'y a rien à installer. |
-| 🔄 **Toujours à jour** | Il détecte les nouvelles versions et ne télécharge que ce qui a changé. |
-| 🔒 **Sûr** | Chaque fichier est vérifié avant d'être installé. Aucun compte, aucune télémétrie. |
+1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.3/AKLauncher.exe) et **lancez-le**. Rien à installer, aucun droit administrateur.
+2. Ouvrez la **Boutique**, choisissez un jeu et cliquez sur **Installer**. Suivez le téléchargement dans **Téléchargement**.
+3. Le jeu apparaît dans votre **Bibliothèque** : cliquez dessus (ou sur **Lancer**) pour jouer.
 
-<br>
-
-## 🚀 Installation
-
-1. **Téléchargez** [`AKLauncher.exe`](https://github.com/AikoDevHs/ak-launcher/releases/download/launcher-v1.1.3/AKLauncher.exe).
-2. **Lancez-le** : aucun droit administrateur n'est demandé.
-3. **Choisissez un jeu** et cliquez sur **INSTALLER**. Quand une mise à jour sort, le bouton devient **METTRE À JOUR**.
-
-> **Windows affiche « Windows a protégé votre ordinateur » ?**
-> C'est normal pour un petit programme non signé (la signature de code est payante).
-> Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
-> Vous pouvez aussi [vérifier le fichier](#-vérifier-votre-téléchargement) ou l'analyser avec Windows Defender avant de le lancer.
+> **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un petit programme non signé.
+> Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
 
 <br>
 
-## 🛡️ Pourquoi vous pouvez lui faire confiance
+## 🖼️ Aperçu
 
-| | |
-|---|---|
-| **Transparent** | Le launcher fait ce qui est décrit sur cette page, et rien d'autre : il télécharge des jeux, les vérifie et les lance. |
-| **Fichiers vérifiés** | Chaque fichier téléchargé est contrôlé par son empreinte **SHA-256**. S'il est abîmé, il est rejeté et rien n'est modifié. |
-| **Installé chez vous, rien d'autre** | Dans `%LOCALAPPDATA%\AKLauncher`, c'est-à-dire votre profil. Pas de droits administrateur, pas de modification du système. |
-| **Uniquement GitHub** | Le launcher ne contacte que GitHub, en HTTPS. Toute autre adresse est refusée. |
-| **Discret** | Aucun compte, aucune publicité, aucune télémétrie. Comme tout téléchargement, GitHub voit votre adresse IP. |
-| **Réversible** | Bouton **Désinstaller** dans le launcher, ou supprimez simplement le dossier `%LOCALAPPDATA%\AKLauncher`. |
-| **Hors ligne** | Les jeux déjà installés se lancent sans connexion. |
-
-> La vérification SHA-256 protège contre un téléchargement corrompu ou incomplet. Les empreintes sont publiées sur ce dépôt GitHub, que vous pouvez consulter à tout moment.
+<table>
+<tr>
+<td width="50%"><img src="assets/boutique.png" alt="La Boutique"><br><sub><b>La Boutique</b> : tous les jeux disponibles.</sub></td>
+<td width="50%"><img src="assets/jeu1.png" alt="La page d'un jeu"><br><sub><b>La page d'un jeu</b> : description, captures, installation.</sub></td>
+</tr>
+</table>
 
 <br>
 
-## 🔍 Vérifier votre téléchargement
+## 🎮 Jeux disponibles
 
-Chaque version du launcher indique son **SHA-256** dans la description de la release. Dans PowerShell, depuis le dossier du fichier :
+**GUN FIGHT** · <kbd>Gratuit</kbd> · FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération.
+
+D'autres jeux arriveront. Ils apparaîtront tout seuls dans la Boutique, sans rien réinstaller.
+
+<br>
+
+## 🔄 Toujours à jour
+
+- **Le launcher se met à jour tout seul** à chaque démarrage, sans rien faire.
+- **Les jeux** : quand une nouvelle version sort, elle apparaît dans **Téléchargement**. Seuls les fichiers modifiés sont téléchargés.
+
+<br>
+
+## 🛡️ En toute confiance
+
+- Aucun compte, aucune publicité, **aucune télémétrie**.
+- Tout est installé dans votre profil (`%LOCALAPPDATA%\AKLauncher`), sans modifier le système.
+- Le launcher ne contacte que **GitHub**, en HTTPS. Chaque fichier est vérifié par son empreinte **SHA-256** avant d'être installé.
+- Pour tout supprimer : **Désinstaller** dans le menu **⋯** d'un jeu, puis supprimez le dossier ci-dessus et `AKLauncher.exe`.
+
+<details>
+<summary><b>Vérifier mon téléchargement</b></summary>
+
+<br>
+
+Chaque version indique son **SHA-256** dans la description de sa [release](https://github.com/AikoDevHs/ak-launcher/releases). Dans PowerShell, depuis le dossier du fichier :
 
 ```powershell
 Get-FileHash .\AKLauncher.exe -Algorithm SHA256
 ```
 
-Le résultat doit être **identique** à celui affiché sur la page de la release. Sinon, ne lancez pas le fichier.
+Le résultat doit être identique à celui de la release. Sinon, ne lancez pas le fichier.
+</details>
 
 <br>
 
 ## ❓ Questions fréquentes
 
 <details>
-<summary><b>Où sont installés mes jeux ?</b></summary>
-
-Dans `%LOCALAPPDATA%\AKLauncher\games\`. Collez ce chemin dans l'explorateur de fichiers pour l'ouvrir, ou utilisez le bouton « dossier » de la page du jeu.
-</details>
-
-<details>
 <summary><b>« Impossible de joindre le serveur »</b></summary>
 
-Vérifiez votre connexion Internet. Si le jeu est déjà installé, vous pouvez le lancer hors ligne.
+Vérifiez votre connexion Internet. Les jeux déjà installés se lancent sans connexion.
 </details>
 
 <details>
@@ -90,15 +91,9 @@ Une mise à jour ne peut pas remplacer un jeu en cours d'exécution. Quittez-le,
 </details>
 
 <details>
-<summary><b>Un jeu ne se lance plus après une mise à jour</b></summary>
+<summary><b>Un jeu ne se lance plus</b></summary>
 
-Ouvrez la page du jeu et cliquez sur le bouton **Vérifier / réparer** : le launcher recontrôle chaque fichier et retélécharge ceux qui sont abîmés.
-</details>
-
-<details>
-<summary><b>Comment tout supprimer ?</b></summary>
-
-Supprimez le dossier `%LOCALAPPDATA%\AKLauncher`, puis `AKLauncher.exe`. Il ne reste rien d'autre.
+Dans la **Bibliothèque**, ouvrez le menu **⋯** du jeu puis **Réparer les fichiers** : le launcher recontrôle chaque fichier et retélécharge ceux qui sont abîmés.
 </details>
 
 <br>
