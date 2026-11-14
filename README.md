@@ -37,14 +37,6 @@
 
 <br>
 
-## 🎮 Jeux disponibles
-
-**GUN FIGHT** · <kbd>Gratuit</kbd> · FPS multijoueur : affrontez d'autres joueurs en PVP ou survivez à des vagues de zombies en coopération.
-
-D'autres jeux arriveront. Ils apparaîtront tout seuls dans la Boutique, sans rien réinstaller.
-
-<br>
-
 ## 🔄 Toujours à jour
 
 - **Le launcher se met à jour tout seul** à chaque démarrage, sans rien faire.
@@ -101,7 +93,6 @@ Dans la **Bibliothèque**, ouvrez le menu **⋯** du jeu puis **Réparer les fic
 
 <div align="center">
 
-© 2026 AikoDevHs · Tous droits réservés. AK Launcher est gratuit pour un usage personnel ; son code source est privé.<br>
-Fait avec ❤️ par [AikoDevHs](https://github.com/AikoDevHs)
+© 2026 [AikoDevHs](https://github.com/AikoDevHs) · Tous droits réservés.
 
 </div>
